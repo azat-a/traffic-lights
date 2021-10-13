@@ -108,9 +108,9 @@ export default {
   data() {
     return {
       colorList: [
-        { color: "red", time: 5000, isBlinking: true, blinkingTime: 3000 },
+        { color: "red", time: 10000, isBlinking: true, blinkingTime: 3000 },
         { color: "yellow", time: 3000, isBlinking: false, blinkingTime: 0 },
-        { color: "green", time: 5000, isBlinking: true, blinkingTime: 3000 },
+        { color: "green", time: 15000, isBlinking: true, blinkingTime: 3000 },
       ],
       light: { color: "" },
       next: null,
